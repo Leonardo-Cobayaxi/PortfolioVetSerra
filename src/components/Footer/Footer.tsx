@@ -1,20 +1,15 @@
-
+import IgLogo from '../../assets/instagram.svg'
+import LiLogo from '../../assets/linkedin.svg'
+import FbLogo from '../../assets/facebook.svg'
 import './Footer.css';
 
 function Footer() {
     return (
         <div className="App">
             <footer>
-                <div>
-                    <p>imgDeContato</p>
-                    <p>imgDeContato</p>
-                </div>
-                <div>
-                    <p>imgDeContato</p>
-                    <p>imgDeContato</p>
-                </div>
-
-
+                <img src={LiLogo}></img>
+                <img src={IgLogo}></img>
+                <img src={FbLogo}></img>
             </footer>
         </div>
     );
