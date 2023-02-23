@@ -1,0 +1,13 @@
+.Presentation {
+    display: flex;
+    width: 100vw;
+    height: 10rem;
+    justify-content: center;
+    margin-top: 2rem;
+
+}
+
+.Presentation p {
+    width: 40%;
+    font-size: 1.5rem;
+}
