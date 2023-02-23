@@ -1,5 +1,5 @@
 import './Presentation.css';
-import Photo from '../../assets/Pfp.jpg'
+import PFP from "../../assets/pfp.jpg"
 function Presentation() {
     return (
         <div className="Presentation">
@@ -9,7 +9,7 @@ function Presentation() {
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Unde eum maxime temporibus animi rem quisquam aspernatur mollitia dolor dolore tenetur cumque,
                 culpa modi minima nisi repellendus cum laudantium nemo atque!</p>
-            <img src={Photo}></img>
+            <img src={PFP}></img>
         </div>
     );
 }
