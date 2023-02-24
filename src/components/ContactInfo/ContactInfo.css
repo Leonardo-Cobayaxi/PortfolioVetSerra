@@ -1,5 +1,14 @@
+.containerContact {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+
+
+}
+
 .contactCall {
-    margin-top: 30vh;
+    margin-top: 15vh;
     display: flex;
     align-items: center;
 }
@@ -35,4 +44,14 @@
 
 .contactInfo li img {
     width: 2rem;
+}
+
+.line {
+    display: flex;
+    margin-left: 10vw;
+    border: solid rgba(0, 0, 0, 0.103);
+    border-width: 0.01px;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+    width: 80vw;
 }
