@@ -35,4 +35,5 @@
 
 .photosPipoca img:hover {
     scale: 1.1;
+    z-index: 0;
 }

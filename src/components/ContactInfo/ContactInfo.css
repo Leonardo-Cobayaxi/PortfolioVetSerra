@@ -1,0 +1,38 @@
+.contactCall {
+    margin-top: 30vh;
+    display: flex;
+    align-items: center;
+}
+
+.contactCall h1 {
+    width: 50vw;
+    margin-left: 10vw;
+}
+
+.contactCall p {
+    width: 50vw;
+    margin-right: 10vw;
+
+    font-size: large;
+}
+
+.contactInfo {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50vw;
+}
+
+.contactInfo ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.contactInfo li {
+    display: flex;
+    align-items: center;
+}
+
+.contactInfo li img {
+    width: 2rem;
+}
