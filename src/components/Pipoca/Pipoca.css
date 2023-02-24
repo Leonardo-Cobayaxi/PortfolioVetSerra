@@ -1,0 +1,38 @@
+.pipoca {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.case {
+    padding: 1rem;
+    display: flex;
+    height: 15rem;
+
+}
+
+.case img {
+    max-width: 30%;
+    border-radius: 1rem;
+}
+
+
+.photosPipoca {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.photosPipoca img {
+    width: 15rem;
+    height: 15rem;
+}
+
+.photosPipoca img:hover {
+    scale: 1.1;
+}

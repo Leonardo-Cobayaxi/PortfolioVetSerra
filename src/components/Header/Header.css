@@ -1,9 +1,24 @@
-Header {
+header {
     display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
     flex-direction: row;
-    align-items: flex-end;
-    justify-content: flex-end;
-    height: 2rem;
-    background-color: rgb(120, 189, 250);
+    height: 4rem;
+    background-color: #1d3557;
     align-items: center;
+    justify-content: space-between;
+
+}
+
+header img {
+    width: 3rem;
+    margin-left: 1rem;
+}
+
+.nav {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    margin-right: 1rem;
 }

@@ -1,5 +1,5 @@
 footer {
-    background-color: rgb(182, 233, 233);
+    background-color: #457b9d;
     position: fixed;
     display: flex;
     flex-direction: row;
@@ -7,5 +7,11 @@ footer {
     left: 0;
     width: 100%;
     justify-content: flex-end;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+}
 
+footer img {
+    height: 2.5rem;
 }
