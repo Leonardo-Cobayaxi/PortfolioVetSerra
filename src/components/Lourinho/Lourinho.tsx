@@ -2,10 +2,28 @@ import './Lourinho.css';
 import lLLd from "../../assets/lLLd.png"
 import lPA from "../../assets/lPA.png"
 import lourinho from "../../assets/lourinho.jpeg"
+import { useState } from 'react';
 function Lourinho() {
+    const [modalPhoto, setModalPhoto] = useState({})
+    const [open, setOpen] = useState(false)
+
+    function handleModal(photo: any) {
+        setModalPhoto(photo)
+        setOpen(true)
+    }
+    function handleModalClose() {
+        setModalPhoto({})
+        setOpen(false)
+    }
+
+
     return (
         <>
             <div className="lourinho">
+                <div className={open ? 'modal' : 'none'}>
+                    <h1 onClick={() => handleModalClose()}>X</h1>
+                    <img className='modalImg' src={`${modalPhoto}`} ></img>
+                </div>
                 <div className='case'>
                     <img src={lourinho}></img>
                     <p> //Faz aquele texto malandro explicando o caso e a importância do seu trabalho//
@@ -19,8 +37,8 @@ function Lourinho() {
                 <div className='photosLourinho'>
                     <p>//texto falando do raiox// Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea possimus rerum doloribus mollitia?
                         Dolores dignissimos debitis nulla. Blanditiis, minus! Vel facilis quaerat quia aspernatur, obcaecati amet illo. Error, praesentium ratione?</p>
-                    <img src={lPA}></img>
-                    <img src={lLLd}></img>
+                    <img onClick={() => handleModal(lPA)} src={lPA}></img>
+                    <img onClick={() => handleModal(lLLd)} src={lLLd}></img>
                 </div>
             </div>
         </>

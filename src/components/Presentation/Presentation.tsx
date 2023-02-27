@@ -2,7 +2,8 @@ import './Presentation.css';
 import PFP from "../../assets/pfp.jpg"
 function Presentation() {
     return (
-        <>
+        <div className='containerPresentation'>
+
             <div className='line' ></div>
             <div className="Presentation">
                 <div className='about'>
@@ -18,7 +19,8 @@ function Presentation() {
             </div>
             <div className='line' ></div>
 
-        </>
+        </div>
+
     );
 }
 
