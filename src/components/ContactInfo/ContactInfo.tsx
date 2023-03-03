@@ -17,9 +17,9 @@ function ContactInfo() {
                 </div>
                 <div className="contactInfo">
                     <ul>
-                        <li><img src={email}></img></li>
-                        <li><img src={whatsapp}></img></li>
-                        <li><img src={telegram}></img></li>
+                        <li><img src={email} alt="email Icon"></img></li>
+                        <li><img src={whatsapp} alt="whatsapp Icon"></img></li>
+                        <li><img src={telegram} alt="telegramIcon"></img></li>
                     </ul>
                 </div>
                 <div className='line' ></div>

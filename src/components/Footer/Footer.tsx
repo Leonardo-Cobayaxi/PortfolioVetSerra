@@ -8,10 +8,10 @@ function Footer() {
     return (
         <div className="App">
             <footer>
-                <img src={LiLogo}></img>
-                <img src={IgLogo}></img>
-                <img src={FbLogo}></img>
-                <img src={LarLogo}></img>
+                <img src={LiLogo} alt="linkedin Icon"></img>
+                <img src={IgLogo} alt="instagram Icon"></img>
+                <img src={FbLogo} alt="facebook Icon"></img>
+                <img src={LarLogo} alt="Lar Icon"></img>
 
             </footer>
         </div>

@@ -31,18 +31,18 @@ function Pipoca() {
                         animi minus. Dolorem, at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quos numquam voluptatem repudiandae
                         adipisci nostrum est dolor porro vitae eum corporis culpa qui at aut similique, commodi incidunt ab! Sapiente.
                     </p>
-                    <img src={pipoca}></img>
+                    <img src={pipoca} alt="Foto pipoca"></img>
 
                 </div>
                 <div className='photosPipoca'>
                     <p>//texto falando do raiox// Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea possimus rerum doloribus mollitia? Dolores dignissimos debitis nulla. Blanditiis, minus! Vel facilis quaerat quia aspernatur, obcaecati amet illo. Error, praesentium ratione?</p>
-                    <img onClick={() => handleModal(pLLD)} src={pLLD}></img>
-                    <img onClick={() => handleModal(pPALLD)} src={pPALLD}></img>
+                    <img onClick={() => handleModal(pLLD)} src={pLLD} alt="pLLD"></img>
+                    <img onClick={() => handleModal(pPALLD)} src={pPALLD} alt="pPALLD"></img>
                 </div>
                 <div className='photosPipoca'>
                     <p>//texto falando do raiox// Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam magni ullam delectus voluptatibus excepturi magnam asperiores eum ad aliquam eligendi accusamus, voluptate soluta veniam. Corporis vel harum placeat quam doloribus!</p>
-                    <img onClick={() => handleModal(pAp)} src={pAp}></img>
-                    <img onClick={() => handleModal(pAPVD)} src={pAPVD}></img>
+                    <img onClick={() => handleModal(pAp)} src={pAp} alt="pAp"></img>
+                    <img onClick={() => handleModal(pAPVD)} src={pAPVD} alt="pAPVD"></img>
 
                 </div>
             </div>

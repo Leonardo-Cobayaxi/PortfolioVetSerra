@@ -10,7 +10,7 @@ function Header() {
   return (
     <div className="App">
       <header>
-        <img src={logo}></img>
+        <img src={logo} alt="Lar logo"></img>
         <div className='nav'>
           <div className='home'>
             <Link style={linkStyle} to='/'>
