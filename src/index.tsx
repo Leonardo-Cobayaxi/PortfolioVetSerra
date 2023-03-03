@@ -30,7 +30,7 @@ h1,h2,h3,h4,span,p:hover{
   border: solid rgba(0, 0, 0, 0.103);
   border-width: 0.01px;
   margin-top: 6rem;
-  margin-bottom: 7rem;
+  margin-bottom: 6rem;
   width: 80vw;
 }
 .modalImg {
