@@ -38,6 +38,7 @@
 
 .photosLourinho img:hover {
     scale: 1.1;
+    opacity: 0.9;
 }
 
 .none {

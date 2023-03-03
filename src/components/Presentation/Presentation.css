@@ -33,13 +33,3 @@
     width: 20rem;
     height: 15rem;
 }
-
-.line {
-    display: flex;
-    margin-left: 10vw;
-    border: solid rgba(0, 0, 0, 0.103);
-    border-width: 0.01px;
-    margin-top: 6rem;
-    margin-bottom: 7rem;
-    width: 80vw;
-}

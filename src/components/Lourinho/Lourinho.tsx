@@ -37,7 +37,7 @@ function Lourinho() {
                 <div className='photosLourinho'>
                     <p>//texto falando do raiox// Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea possimus rerum doloribus mollitia?
                         Dolores dignissimos debitis nulla. Blanditiis, minus! Vel facilis quaerat quia aspernatur, obcaecati amet illo. Error, praesentium ratione?</p>
-                    <img onClick={() => handleModal(lPA)} src={lPA}></img>
+                    <img onClick={() => handleModal(lPA)} src={lPA} ></img>
                     <img onClick={() => handleModal(lLLd)} src={lLLd}></img>
                 </div>
             </div>
