@@ -1,5 +1,5 @@
 import './Presentation.css';
-import PFP from "../../assets/pfp.jpg"
+import Pfp from "../../assets/pfp.jpg"
 function Presentation() {
     return (
         <div className='containerPresentation'>
@@ -15,7 +15,7 @@ function Presentation() {
                         Unde eum maxime temporibus animi rem quisquam aspernatur mollitia dolor dolore tenetur cumque,
                         culpa modi minima nisi repellendus cum laudantium nemo atque!</p>
                 </div>
-                <img className='pfp' src={PFP}></img>
+                <img className='pfp' src={Pfp}></img>
             </div>
             <div className='line' ></div>
 
